@@ -1,1 +1,39 @@
 @charset "UTF-8";
+
+:root{
+    --brand-light: #F67841;
+    --brand-mid: #F3541C;
+    --brand-dark: #E43A12;
+
+    --text-primary: #292524;
+    --text-secondary: #292524;
+    --text-tertiary: #292524;
+    --text-highlight: #292524;
+    --semantic-error: #DC2626; 
+
+    --surface-primary: #FFFFFF;
+    --surface-secondary: #FEE7D6;
+    --surface-disabled: #E7E5E4;
+
+    --stroke-default: #D6D3D1;
+    --stroke-highlight: #F3541C;
+
+    --orange: #F9A474;
+    --yellow: #FEDF6F;
+    --green: #C7D78D;
+    --blue: #B8CEDC;
+    --violet: #C3B2E7;
+    --pink: #F682A5;
+
+    --font-family:"Poppins", sans-serif;
+    --text-el: 700 32px/120% var(--font-family);
+    --text-lg: 700 24px/120% var(--font-family);
+    --text-md: 700 20px/120% var(--font-family);
+    --text-sm: 700 16px/120% var(--font-family);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
