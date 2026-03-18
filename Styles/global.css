@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 :root{
     --brand-light: #F67841;
     --brand-mid: #F3541C;
@@ -26,14 +32,15 @@
     --pink: #F682A5;
 
     --font-family:"Poppins", sans-serif;
-    --text-el: 700 32px/120% var(--font-family);
-    --text-lg: 700 24px/120% var(--font-family);
-    --text-md: 700 20px/120% var(--font-family);
-    --text-sm: 700 16px/120% var(--font-family);
+    --text-el: 700 2rem/1.2 var(--font-family);
+    --text-lg: 700 1.5rem/1.2 var(--font-family);
+    --text-md: 700 1.25rem/1.2 var(--font-family);
+    /* --text-sm: 700 1rem/1.2 var(--font-family); */
+
+    --text: 400 1rem/1.5 var(var(--font-family));
+    --text-sm: 400 0.875rem/1.4 var(--font-family);
 }
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+body{
+    overflow: hidden;
 }
