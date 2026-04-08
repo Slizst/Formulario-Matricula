@@ -1,3 +1,5 @@
+@import url(droparea.css);
+
 input, textarea, select{
     appearance: none;
     width: 100%;
@@ -8,7 +10,7 @@ input, textarea, select{
 
     font: var(--text);
 
-    &:focus{
+    &:focus, &[type="date"]:focus-within{
         outline: .25rem solid var(--surface-secondary);
         outline-offset: .1px;
         border: .125rem solid var(--stroke-highlight);
