@@ -15,6 +15,13 @@ input, textarea, select{
         outline-offset: .1px;
         border: .125rem solid var(--stroke-highlight);
     }
+
+    &[disabled]{
+        background-color: var(--surface-disabled);
+        border: 1px solid var(--stroke-default);
+        color: var(--text-primary);
+    }
+
 }
 
 label{
@@ -48,4 +55,12 @@ input[type="date"] {
 select{
     background: url(../../Assets/Icons/arrow-down-01.svg)
     no-repeat calc(100% - 1rem);
+}
+
+.address .flex{
+    gap: 1.25rem;
+}
+
+.input-wrapper:has([disabled]) {
+    opacity: .5;
 }
